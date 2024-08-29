@@ -75,7 +75,7 @@ class Portfolio:
 
 
 if __name__ == '__main__':
-    myPortfolio = [186,187,188]
+    myPortfolio = [186,187,188,15077]
 
     print("\n")
 

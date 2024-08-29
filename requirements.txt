@@ -1,7 +1,5 @@
-certifi==2021.10.8
-charset-normalizer==2.0.12
-idna==3.3
-numpy==1.22.2
+mkl-service==2.4.0
 numpy-financial==1.0.0
-requests==2.27.1
-urllib3==1.26.8
+pywin32==305.1
+setuptools==72.1.0
+wheel==0.43.0
