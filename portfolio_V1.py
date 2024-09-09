@@ -1,6 +1,6 @@
 import requests
 from requests.structures import CaseInsensitiveDict
-import numpy_financial as np
+import numpy_financial as npf
 from datetime import datetime as dt
 
 headers = CaseInsensitiveDict()
@@ -40,7 +40,7 @@ class Portfolio:
 
         self.__lastDayPrice = lPrice
 
-        profit = round(np.irr([-iPrice, lPrice])*100,2)
+        profit = round(npf.irr([-iPrice, lPrice])*100,2)
         return profit
     
 
@@ -75,7 +75,7 @@ class Portfolio:
 
 
 if __name__ == '__main__':
-    myPortfolio = [186,187,188,15077]
+    myPortfolio = [186,187,188]
 
     print("\n")
 
