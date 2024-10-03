@@ -3,3 +3,6 @@ venv/
 precios.xlsx
 precios-analisis.xlsx
 precios-analisis2.xlsx
+precios_c.xlsx
+
+**/__pycache__/
